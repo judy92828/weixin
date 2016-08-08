@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Token;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
+define("TOKEN", "weixin");
 class TokenController extends Controller
 {
     //验证入口token
