@@ -29,6 +29,8 @@ require __DIR__.'/../vendor/autoload.php';
 
 $compiledPath = __DIR__.'/cache/compiled.php';
 
+require __DIR__.'/../app/Function/functions.php'; // 引入自定义函数库
+
 if (file_exists($compiledPath)) {
     require $compiledPath;
 }

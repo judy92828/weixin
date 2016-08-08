@@ -11,7 +11,7 @@ class Weixin extends Model
     public function __construct() {
 //        if ($_REQUEST ['doNotInit']) return true;
 
-        $content = file_get_contents ( 'php://input' );
+        $content = jj_file_get_contents( 'php://input' );
         ! empty ( $content ) || die ( '这是微信请求的接口地址，直接在浏览器里无效' );
 
         $data = new \SimpleXMLElement ( $content );
