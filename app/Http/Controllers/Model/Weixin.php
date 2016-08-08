@@ -9,8 +9,7 @@ class Weixin extends Model
     var $data = array ();
     var $wxcpt, $sReqTimeStamp, $sReqNonce, $sEncryptMsg;
     public function __construct() {
-        if ($_REQUEST ['doNotInit'])
-            return true;
+//        if ($_REQUEST ['doNotInit']) return true;
 
         $content = wp_file_get_contents ( 'php://input' );
         ! empty ( $content ) || die ( '这是微信请求的接口地址，直接在浏览器里无效' );
