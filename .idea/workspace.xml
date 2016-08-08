@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="28548c20-caa7-4d89-9af2-d67635b4dd92" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Token/TokenController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Token/TokenController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
     </list>
     <ignored path="weixin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,11 +27,11 @@
       <file leaf-file-name="TokenController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Token/TokenController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2854758">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.46076795">
+              <caret line="73" column="35" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
               <folding>
                 <element signature="e#46#68#0#PHP" expanded="true" />
-                <marker date="1470635749756" expanded="true" signature="1123:1382" placeholder="..." />
+                <marker date="1470635854857" expanded="true" signature="1096:1355" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -333,11 +332,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Token/TokenController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2854758">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.46076795">
+          <caret line="73" column="35" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
           <folding>
             <element signature="e#46#68#0#PHP" expanded="true" />
-            <marker date="1470635749756" expanded="true" signature="1123:1382" placeholder="..." />
+            <marker date="1470635854857" expanded="true" signature="1096:1355" placeholder="..." />
           </folding>
         </state>
       </provider>

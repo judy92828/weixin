@@ -5,7 +5,6 @@ namespace App\Http\Controllers\Token;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
-define("TOKEN", "weixin");
 class TokenController extends Controller
 {
     //验证入口token
@@ -69,7 +68,7 @@ class TokenController extends Controller
         $timestamp = $_GET["timestamp"];
         $nonce = $_GET["nonce"];
 
-        $token = TOKEN;
+        $token = 'weixin';
         $tmpArr = array($token, $timestamp, $nonce);
         // use SORT_STRING rule
         sort($tmpArr, SORT_STRING);
