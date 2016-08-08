@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+//入口验证
+Route::get('yztoken','TokenController@index')->name('token.index');
