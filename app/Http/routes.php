@@ -11,13 +11,6 @@
 |
 */
 
-//Route::get('/', function () {
-//    return view('welcome');
-//});
-//
-//Route::get('/weixin', function () {
-//    return view('welcome');
-//});
-
-//入口验证
-Route::get('/','Token\TokenController@index')->name('token.index');
+Route::get('/', function () {
+    return view('welcome');
+});
